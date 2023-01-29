@@ -8,28 +8,28 @@ st.title('もち')
 button=st.button('もちの写真')
 
 if button:
-    img=Image.open('moti2.JPG')
-    st.image(img,caption='もち',use_column_width=True)
+    # img=Image.open('moti2.JPG')
+    # st.image(img,caption='もち',use_column_width=True)
 
     col1, col2, col3 = st.columns(3)
 
     ex=st.expander('ex')
     ex.write("A")
-    ex.image("https://github.com/happyyumeno/moti/blob/master/moti.JPG",use_column_width=True)
+    ex.image("https://github.com/happyyumeno/moti/blob/master/moti.JPG?raw=true",use_column_width=True)
     
 
     with col1:
         st.header("A")
-        st.image("https://github.com/happyyumeno/moti/blob/master/moti.JPG", use_column_width=True)
+        st.image("https://github.com/happyyumeno/moti/blob/master/moti.JPG?raw=true", use_column_width=True)
         
 
     with col2:
         st.header("B")
-        st.image("https://github.com/happyyumeno/moti/blob/master/moti2.JPG", use_column_width=True)
+        st.image("https://github.com/happyyumeno/moti/blob/master/moti2.JPG?raw=true", use_column_width=True)
     
     with col3:
         st.header("C")
-        st.image("https://github.com/happyyumeno/moti/blob/master/moti3.JPG", use_column_width=True)
+        st.image("https://github.com/happyyumeno/moti/blob/master/moti3.JPG?raw=true", use_column_width=True)
 
 button=st.button('とじる')
 # if button:
