@@ -1,9 +1,6 @@
 import streamlit as st
 
-
 st.title('もち')
-
-
 
 button=st.button('もちの写真')
 
@@ -29,7 +26,7 @@ if button:
     
     with col3:
         st.header("C")
-        st.image("https://github.com/happyyumeno/moti/blob/master/moti3.JPG?raw=true", use_column_width=True)
+        st.image("https://github.com/happyyumeno/moti/blob/master/moti3.jpg?raw=true", use_column_width=True)
 
 button=st.button('とじる')
 # if button:
