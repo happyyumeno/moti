@@ -7,15 +7,15 @@ st.title('もち')
 
 button=st.button('もちの写真')
 
-if button:
+# if button:
     # img=Image.open('moti2.JPG')
     # st.image(img,caption='もち',use_column_width=True)
 
-    col1, col2, col3 = st.columns(3)
+    # col1, col2, col3 = st.columns(3)
 
-    ex=st.expander('ex')
-    ex.write("A")
-    ex.image("moti.JPG",use_column_width=True)
+    # ex=st.expander('ex')
+    # ex.write("A")
+    # ex.image("moti.JPG",use_column_width=True)
     
 
     # with col1:
