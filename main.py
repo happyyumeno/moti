@@ -18,18 +18,18 @@ if button:
     ex.image("moti.JPG",use_column_width=True)
     
 
-    with col1:
-        st.header("A")
-        st.image("moti.JPG", use_column_width=True)
+    # with col1:
+    #     st.header("A")
+    #     st.image("moti.JPG", use_column_width=True)
         
 
-    with col2:
-        st.header("B")
-        st.image("moti2.JPG", use_column_width=True)
+    # with col2:
+    #     st.header("B")
+    #     st.image("moti2.JPG", use_column_width=True)
     
-    with col3:
-        st.header("C")
-        st.image("moti3.JPG", use_column_width=True)
+    # with col3:
+    #     st.header("C")
+    #     st.image("moti3.JPG", use_column_width=True)
 
 button=st.button('とじる')
 # if button:
