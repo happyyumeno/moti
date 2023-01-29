@@ -32,8 +32,8 @@ if button:
         st.image("moti3.JPG", use_column_width=True)
 
 button=st.button('とじる')
-if button:
-    img=Image.close('')
+# if button:
+    # img=Image.close('')
 
 """
 # もちかわいい
